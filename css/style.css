@@ -1,0 +1,69 @@
+/* General rules */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    list-style: none;
+}
+
+/* Header rules*/
+header{
+    width: 75%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.logo, .login{
+    
+}
+
+.box-mini-button{
+    border-radius: 20px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-basis: 45%;
+}
+.login{
+    line-height: 20px;
+    vertical-align: center;
+    text-align: center;
+}
+
+
+/* Main bloc rules */
+
+
+/* Footer rules */
+
+
+/* DEBUG RULES */
+.background-header{
+    background-color: #255ee9;
+    height: 400px; 
+}
+
+.box-mini-button{
+    height: 20px;
+    width: 50px;
+    background-color: white;
+}
+.logo{
+    height: 20px;
+    width: 50px;
+    background-color: brown;
+}
