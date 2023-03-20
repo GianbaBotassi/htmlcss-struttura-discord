@@ -13,40 +13,88 @@ li{
     list-style: none;
 }
 
+/* Body rules */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 /* Header rules*/
+.background-header{
+    height: 500px;
+}
 header{
     width: 75%;
     margin: 0 auto;
+    color:  #fff;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    font-size: 10px;
-}
-.logo, .login{
-    
-}
-
-.box-mini-button{
-    border-radius: 20px;
+    font-size: 12px;
 }
 .navbar ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     flex-basis: 45%;
 }
 .login{
-    line-height: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    height: 30px;
     vertical-align: center;
     text-align: center;
 }
-
+.jumbotron{
+    width: 75%;
+    margin: 80px auto;
+    text-align: center;
+    line-height: 30px;
+}
+.jumbotron h1, .jumbotron p{
+    margin-bottom: 30px;
+}
+.jumbotron a{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: center;
+    padding:0 10px;
+}
+.jumbotron a:last-child{
+    background-color: #000;
+    color: white;
+    margin-left: 10px;
+}
 
 /* Main bloc rules */
-
+.cont-white-back{
+    height: 500px;
+}
+.container{
+    width: 70%;
+    margin: 80px auto;
+    line-height: 25px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.container .contents{
+    width: calc(40%-40px);
+    margin-left: 40px;
+}
+.container .img{
+    width: 60%;
+}
+.contents h2{
+    font-size: 2em ;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
 
 /* Footer rules */
 
@@ -54,16 +102,30 @@ header{
 /* DEBUG RULES */
 .background-header{
     background-color: #255ee9;
-    height: 400px; 
 }
-
-.box-mini-button{
-    height: 20px;
-    width: 50px;
+.nav
+.login{
+    height: 30px;
+    width: 60px;
     background-color: white;
 }
 .logo{
     height: 20px;
     width: 50px;
     background-color: brown;
+}
+
+.container img{
+    background-color: darkgreen;
+    height: 300px;
+}
+.container .contents{
+    background-color: darkkhaki;
+
+}
+.contents h2{
+    background-color: crimson;
+}
+.contents p{
+    background-color: coral;
 }
