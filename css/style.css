@@ -73,16 +73,14 @@ header{
     margin-left: 10px;
 }
 /* Main bloc rules */
-.cont-white-back{
-    height: 400px;
-}
+
 .cont-grey-back{
     background-color:#f6f6f6;
-    height: 550px;
 }
 .container{
     width: 70%;
-    margin: 100px auto;
+    margin: 0 auto;
+    padding: 100px 0;
     line-height: 25px;
     display: flex;
     align-items: stretch;
@@ -103,13 +101,11 @@ header{
 .row-reverse{
     flex-direction: row-reverse;
 }
-.collapse-margin{
-    padding: 100px 0;
-}
 
 .container-bot{
     width: 70%;
-    margin: 100px auto;
+    margin: 0 auto;
+    padding: 100px 0;
     line-height: 25px;
     text-align: center;
 }
@@ -131,19 +127,16 @@ header{
 }
 
 /* Footer rules */
-.cont-bot-back{
-    height: 850px;
-    background-color: darkkhaki;
-}
+
 footer{
-    height: 450px;
+    background-color: #23272a;
 }
 .row{
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
-    padding-top: 60px;
+    padding: 60px 0;
 }
 .column{
     flex-basis: 10%;
@@ -159,6 +152,7 @@ footer ul{
     justify-content: space-between;
     width: 80%;
     margin: 10px auto;
+    padding-bottom: 30px;
 }
 /* DEBUG RULES */
 .background-header{
@@ -192,12 +186,13 @@ footer ul{
 .contents p{
     background-color: coral;
 }
+
+.container-bot{
+    border: darkgoldenrod 2px solid;
+}
 .container-bot .img-big{
     height: 300px;
     background-color: darkslateblue;
-}
-.container-bot{
-    background-color: darkgoldenrod;
 }
 .container-bot h2{
     background-color: darksalmon;
@@ -206,11 +201,6 @@ footer ul{
     background-color: darkseagreen;
 }
 
-
-
-footer{
-    background-color: #23272a;
-}
 .row{
     display: flex;
     justify-content: space-between;
@@ -237,6 +227,4 @@ footer ul{
     border: solid red 2px;
     
 }
-.foot{
-    background-color: greenyellow;
-}
+
